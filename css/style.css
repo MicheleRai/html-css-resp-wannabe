@@ -129,7 +129,33 @@ img {
  ************************************************/
 
  /* desktop version */
+ @media screen and ( min-width:768px) {
+    .container{
+        width: 100vw;
+        text-align: center;
+        align-items: center;
+    }
+ }  
 
  /* tablet version (768px) */
+ @media screen and ( max-width:768px) {
+    .container{
+        width: 100vw;
+        text-align: center;
+        align-items: center;
+    }
+ }
 
  /* mobile version (480px) */
+ @media screen and ( max-width:480px) {
+    .container{
+        width: 100vw;
+    }
+    .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+ }
